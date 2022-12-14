@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Tags</title>
+
+</head>
+
+<body>
+    <h3>This is HTML Form</h3>
+
+    <!-- backend me jaoo or vha data submit kr do  -->
+    <form action="backend.php">
+        <!-- br is not recommanded instead of br div is recommanded -->
+         <label for="name">Name</label>  
+         <!-- label se agr naam pe click krenge toh uske naam pe click krne pe vo field slect ho jayegi --> -->
+
+        <div><input type="text" id="name"> </div><br>
+
+        <div>Role: <input type="text"></div><br>
+        <!-- name ka mtlb ki backend me vo kaise smjhega ki ye email wala input h isliye vha name lene ke liye use kiya h  -->
+        <div>Email: <input type="email" name="MyEmail"></div><br>
+        <div>Date : <input type="date" name="Date"></div><br>
+        <!-- checked se by default check kr skte ho  -->
+
+        <label for="eligible">Are you Eligible :</label>
+        <div> <input type="checkbox" id="eligible" checked></div><br>
+       
+        <!-- This is Select command  -->
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+            <option value="ind">Indica</option>
+            <option value="ind">Swift</option>
+            <option value="ind">Audi</option>
+        </select>
+
+        <div>Enter Age : <input type="number"></div>
+        <div>Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"></div><br>
+        <!-- this is text area  -->
+        <div>Write ABout <textarea name="textarea" cols="30" rows="10"></textarea></div>
+        <div><input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+
+    </form>
+</body>
+
+</html>
