@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <style>
+        /* First Paragram ko maine target kiya uski id ki help se */
+        #First{
+            border: 2px solid red;
+            color: green;
+        }
+        /* Second Paragram ko maine Class se Target kiya hai or main chahu toh uso id se bhi traget kr skta hu -----------Thsi is Class Selector*/
+        .bgRed{
+            color: chartreuse;
+            background-color: red;
+        }
+        /* This is a Grouping Selector */
+        footer, span{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+       <p id="First">This is a simple paragraph</p>                                
+       <p id="Paragraphtwo" class="RedElement bgRed">This is a simple paragraph one</p>      
+       <div>
+           <p>This is a simple paragraph two</p>                                
+        </div>        
+        <span>
+            This is a span
+        </span>                  
+       <p>This is a simple paragraph three</p>  
+       <footer>
+        This is footer
+       </footer>                              
+
+</body>
+</html>
