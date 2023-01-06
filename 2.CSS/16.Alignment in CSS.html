@@ -1,64 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alignment</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
     <style>
-        body{
+        body {
             font-family: 'Caveat', cursive;
         }
-        *{
+
+        * {
             box-sizing: border-box;
         }
-        .container{
+
+        .container {
             width: 800px;
             border: 3px solid black;
             margin: auto;
 
         }
-        .items{
+
+        .items {
             border: 3px solid blue;
             padding: 12px 3px;
             margin: 12px 3px;
             background: blanchedalmond;
         }
-        #fruits{
+
+        #fruits {
             float: left;
-            width:48%;
+            width: 48%;
         }
-        #computer{
+
+        #computer {
             float: right;
-            width:48%;
+            width: 48%;
         }
-        #stationary{
+
+        #stationary {
             /* float: left; */
-            clear: both; /*Clear is used to make sure that conatiner dont overlap each other on left or right*/
-            width:100%;
+            clear: both;
+            /*Clear is used to make sure that conatiner dont overlap each other on left or right*/
+            width: 99%;
         }
-        </style>
+
+        /* Alignments */
+        p,
+        h3 {
+            text-align: right;
+            text-align: left;
+            text-align: justify;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
     <div class="container">
         <div id="fruits" class="items">
             <h3>Fruits</h3>
-            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, in. Ex quas neque ratione deleniti quisquam voluptate totam, atque possimus dolorum autem incidunt qui, perspiciatis sequi numquam illo, labore inventore!lorem34 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam nesciunt accusantium aspernatur repellendus doloribus eveniet accusamus quam blanditiis quos? Repellendus dolor aspernatur, in quia fugit obcaecati optio esse non totam? Amet, voluptas laudantium!
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, in.
+                Ex quas neque ratione deleniti quisquam voluptate totam, atque possimus dolorum autem incidunt qui,
+                perspiciatis sequi numquam illo, labore inventore!lorem34 Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Rem totam nesciunt accusantium aspernatur repellendus doloribus eveniet accusamus quam
+                blanditiis quos? Repellendus dolor aspernatur, in quia fugit obcaecati optio esse non totam? Amet,
+                voluptas laudantium!
             </p>
         </div>
         <div id="computer" class="items">
             <h3>Computer</h3>
-            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, in. Ex quas neque ratione deleniti quisquam voluptate totam, atque possimus dolorum autem incidunt qui, perspiciatis sequi numquam illo, labore inventore!lorem34 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, impedit. Sapiente illum mollitia dignissimos delectus ea magni quaerat quisquam, harum facere itaque minima. Fugiat distinctio recusandae obcaecati porro labore eligendi itaque unde nesciunt dolore?</p>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, in.
+                Ex quas neque ratione deleniti quisquam voluptate totam, atque possimus dolorum autem incidunt qui,
+                perspiciatis sequi numquam illo, labore inventore!lorem34 Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Molestias, impedit. Sapiente illum mollitia dignissimos delectus ea magni quaerat
+                quisquam, harum facere itaque minima. Fugiat distinctio recusandae obcaecati porro labore eligendi
+                itaque unde nesciunt dolore?</p>
         </div>
         <div id="stationary" class="items">
             <h3>Stationary</h3>
-            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, in. Ex quas neque ratione deleniti quisquam voluptate totam, atque possimus dolorum autem incidunt qui, perspiciatis sequi numquam illo, labore inventore!</p>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                in. Ex quas neque ratione deleniti quisquam voluptate totam, atque possimus dolorum autem incidunt qui,
+                perspiciatis sequi numquam illo, labore inventore!</p>
         </div>
-        
+
+        <div id="hello" class="items">
+            <h3>Stationary</h3>
+            <p id="hellopara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, in. Ex
+                quas neque ratione deleniti quisquam voluptate totam, atque possimus dolorum autem incidunt qui,
+                perspiciatis sequi numquam illo, labore inventore!</p>
+        </div>
+
 
     </div>
-    
+
 </body>
+
 </html>
